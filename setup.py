@@ -9,7 +9,6 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 VERSION = '1.0.0'
 DESCRIPTION = 'Run terminal commands easily!'
-LONG_DESCRIPTION = ''
 
 setup(
     name="propar",
