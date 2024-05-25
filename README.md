@@ -4,17 +4,17 @@ It takes me a long time to make these libraries. If you would like to support my
 https://www.patreon.com/Schkimansky
 
 # Library
-This is a easy to use python library that allows you to convert units of measurement to others. 
-For example, You can use the "time" function to convert seconds to minutes. 
+This is a easy to use python library that allows you to run terminal commands easily. 
+
 ```python
-import conversa
-result = conversa.time(90,  From="seconds",  To="minutes") # Output will be 1.5 minutes (1.5 as a integer)
+import propar
+result = propar.run_command('echo Hello, MG?')
 print(result)
 ```
 
 # Installation
 ```bash
-pip install conversa
+pip install propar
 ```
 
 # Documentation
